@@ -1,3 +1,3 @@
 FROM tomcat:latest
-COPY abc.war /usr/local/tomcat/webapps/
+COPY maven-web-app.war /usr/local/tomcat/webapps/
 CMD ["catalina.sh", "run"]
